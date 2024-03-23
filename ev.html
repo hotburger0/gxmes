@@ -1,0 +1,847 @@
+<html lang="en" class="isguest"><head>
+
+    <link rel="manifest" href="/dist/1-6-0g/public/manifest.json">
+  <!-- <script src="https://code.jquery.com/jquery-1.9.1.js"></script> -->
+
+
+  <script type="text/javascript" async="" src="https://ssl.cdne.cpmstar.com/cached/zonemasters/cpmstarjsgameapi.js?ver=1291"></script><script type="text/javascript" async="" src="https://ssl.cdne.cpmstar.com/cached/zonemasters/mobilemodules.js?ver=1291"></script><script type="text/javascript" async="" src="https://server.cpmstar.com/cached/zonefiles/678_51957_gameapi.js?rnd=540105"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-X0Z831Y0EZ&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-FNEME8L372&amp;l=dataLayer&amp;cx=c"></script><script src="/dist/1-6-0g/public/libs/jquery.min.js">
+    </script> 
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-52115231-29">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-52115231-29', {
+            cookie_flags: 'secure;samesite=none'
+        });
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        var referurl = (window.location != window.parent.location) ? document.referrer : document.location.href;
+        var rAd;
+        var iAd;
+        var crazysdk;
+        var cpmstarAPI;
+        var atCrazyGames = false;
+        var cpmstar = true;
+        var useGoogleH5 = false;
+        var useSuperAwesome = false;
+        var allowLinks = true;
+        var disableAds = true;
+        var isUsingAdblocker = true; 
+        var electronAPI; 
+
+
+if (location.ancestorOrigins) {
+    for (var i = 0; i < location.ancestorOrigins.length; i++) {
+
+        if (location.ancestorOrigins[i].includes("crazy")) {
+            atCrazyGames = true;
+        }
+
+    }
+}
+
+if (referurl.includes("crazy") || urlParams.get('ref') === 'crazy') {
+    atCrazyGames = true;
+}
+
+function inIframe() {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+}
+
+if (atCrazyGames) {
+    localStorage.setItem('atCrazy', true);
+}
+
+
+if ((localStorage.getItem('atCrazy') === "true") && inIframe()) {
+    atCrazyGames = true;
+}
+
+
+
+
+
+        if (atCrazyGames) {
+                   jQuery.getScript('https://sdk.crazygames.com/crazygames-sdk-v1.js', function() {
+                       crazysdk = window.CrazyGames.CrazySDK.getInstance();
+                       //Getting the SDK
+                       crazysdk.init();
+                       //Initializing the SDK, call as early as possible
+                   })
+                   
+        } else {
+
+             //     jQuery.getScript('//api.adinplay.com/libs/aiptag/pub/IOG/ev.io/tag.min.js', function() {})
+
+        }
+
+        
+    </script>
+    <title>Play ev.io - the play to earn blockchain FPS</title>
+
+<link rel="apple-touch-icon" sizes="76x76" href="https://ev.io/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ev.io/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ev.io/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://ev.io/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://ev.io/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, user-scalable=no"> 
+
+    <meta name="description" content="ev.io is a play to earn blockchain FPS which allows you to earn Solana for every kill. Play here on the official site!">
+    <meta property="og:title" content="ev.io">
+    <meta property="og:type" content="game">
+    <meta property="og:url" content="https://ev.io">
+    <meta property="og:image" content="https://ev.io/themes/ev/images/ev-io-og-image.png">
+    <meta id="game_version_meta" name="game_version" content="1-6-0g">
+    <meta id="dist_path_meta" name="dist_path" content="/dist/1-6-0g/public/">
+    <link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootswatch@3.4.0/cyborg/bootstrap.css" integrity="sha256-E0yAdlGkeR3i3Y6oTVkN/eVEVbFyzAZdqpgNlvW664s=" crossorigin="anonymous">
+    <link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap-cyborg.css" integrity="sha512-N8CIXGD1VqOdr/GXmNffK/sFTgLvG1eDahS1NfOmtiFzL9I91M2D/PPQXDKahH7ng/nNYrV+fmxMCqq9XfHuwg==" crossorigin="anonymous">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_rT06N1hzNwWZvlauEGw5ZNFVKBrR23ibx56HC8Lyx4M.css">
+
+        
+            <link rel="stylesheet" type="text/css" href="/dist/1-6-0g/public/libs/simplebar.min.css">
+            <link rel="stylesheet" type="text/css" href="/dist/1-6-0g/public/css/style-game.css?v=2344566">
+            <link rel="stylesheet" type="text/css" href="/dist/1-6-0g/public/css/editor.css?v=5333">
+            <link rel="preload" as="image" href="/dist/1-6-0g/public//img/load_spin.svg">
+
+            <!-- Begin comScore Tag -->
+            <script>
+                var _comscore = _comscore || [];
+                _comscore.push({
+                    c1: "2",
+                    c2: "22419751"
+                });
+                (function() {
+                    var s = document.createElement("script"),
+                        el = document.getElementsByTagName("script")[0];
+                    s.async = true;
+                    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script>
+            <noscript>
+                <img src="https://sb.scorecardresearch.com/p?c1=2&c2=22419751&cv=2.0&cj=1" />
+            </noscript>
+            <!-- End comScore Tag -->
+
+
+
+
+
+<!-- CPMSTAR -->
+<!-- ZONETAG - PLACE INTO HEAD SECTION OR RUN CODE AT STARTUP -->
+
+<script>
+(function(zonefile) { 
+var y = "cpmstarx";
+
+var drutObj = window[y] = window[y] || {};
+function failCpmstarAPI() { isUsingAdblocker = true; var failFn = function(o) { o && typeof(o) === "object" && o.fail && o.fail(); }; drutObj && Array.isArray(drutObj.cmd) && drutObj.cmd.forEach(failFn) && (drutObj.cmd.length = 0);  window.cpmstarAPI = window["_"+zonefile] = failFn; }
+var rnd = Math.round(Math.random()*999999);
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.onerror=failCpmstarAPI;
+var proto = document.location.protocol;
+var host = ( proto == "https:" || proto == "file:")?"https://server":"//cdn";
+if(window.location.hash=="#cpmstarDev") host = "//dev.server";
+if(window.location.hash=="#cpmstarStaging") host = "//staging.server"; 
+s.src = host + ".cpmstar.com/cached/zonefiles/" + zonefile + ".js?rnd="+rnd; 
+var s2=document.getElementsByTagName('script')[0];
+s2.parentNode.insertBefore(s, s2);
+window.cpmstarAPI = function(o) { (drutObj.cmd = drutObj.cmd || []).push(o); }
+}('678_51957_gameapi'));
+</script>
+
+
+<!-- GOOGLE H5 
+
+  <script async
+       data-ad-frequency-hint="30s"
+       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1975621113317922"
+       crossorigin="anonymous">
+   </script>
+   <script>
+      window.adsbygoogle = window.adsbygoogle || [];
+      var adBreak = adConfig = function(o) {adsbygoogle.push(o);}
+   </script>
+
+ END GOOGLE H5 -->
+
+
+	<script>
+	window.aiptag = window.aiptag || {cmd: []};
+	aiptag.cmd.display = aiptag.cmd.display || [];
+	aiptag.cmd.player = aiptag.cmd.player || [];
+
+	//CMP tool settings
+	aiptag.cmp = {
+		show: true,
+		position: "centered",  //centered, bottom
+		button: true,
+		buttonText: "Privacy settings",
+		buttonPosition: "bottom-left" //bottom-left, bottom-right, top-left, top-right
+	}
+
+	aiptag.cmd.player.push(function() {
+		aiptag.adplayer = new aipPlayer({
+			AIP_REWARDEDCOMPLETE: function (state)  {
+				
+				//state can be: timeout, empty or closed
+				alert("Rewarded Ad Completed: " + state);
+			},
+			AIP_REWARDEDGRANTED: function ()  {
+				
+				//at this point the reward is granted, usually this will be just before or after AIP_REWARDEDCOMPLETE but this is not always the case
+				alert("Reward Granted");
+			},
+			AD_WIDTH: 960,
+			AD_HEIGHT: 540,
+			AD_DISPLAY: 'fullscreen', //default, fullscreen, center, fill
+			TRUSTED: true,
+			LOADING_TEXT: 'loading advertisement',
+			PREROLL_ELEM: function(){return document.getElementById('preroll')},
+			AIP_COMPLETE: function (state)  {
+				/*******************
+				 ***** WARNING *****
+				 *******************
+				 Please do not remove the PREROLL_ELEM
+				 from the page, it will be hidden automaticly.
+				 If you do want to remove it use the AIP_REMOVE callback.
+				*/
+				
+			//	alert("Preroll Ad Completed: " + state);
+			},
+			AIP_REMOVE: function ()  {
+				// Here it's safe to remove the PREROLL_ELEM from the page if you want. But it's not recommend.
+			}
+		});
+
+        adplayer = aiptag.adplayer; 
+	});
+
+	function show_preroll() {
+		//check if the adslib is loaded correctly or blocked by adblockers etc.
+		if (typeof aiptag.adplayer !== 'undefined') {
+			aiptag.cmd.player.push(function() { aiptag.adplayer.startPreRoll(); });
+		} else {
+			//Adlib didnt load this could be due to an adblocker, timeout etc.
+			//Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE or AIP_REMOVE.
+		//	alert("Ad Could not be loaded, load your content here");
+        console.log('ad could no be loaded');
+		}
+	}
+	</script>
+
+
+<style type="text/css">.dg ul{list-style:none;margin:0;padding:0;width:100%;clear:both}.dg.ac{position:fixed;top:0;left:0;right:0;height:0;z-index:0}.dg:not(.ac) .main{overflow:hidden}.dg.main{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear}.dg.main.taller-than-window{overflow-y:auto}.dg.main.taller-than-window .close-button{opacity:1;margin-top:-1px;border-top:1px solid #2c2c2c}.dg.main ul.closed .close-button{opacity:1 !important}.dg.main:hover .close-button,.dg.main .close-button.drag{opacity:1}.dg.main .close-button{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear;border:0;line-height:19px;height:20px;cursor:pointer;text-align:center;background-color:#000}.dg.main .close-button.close-top{position:relative}.dg.main .close-button.close-bottom{position:absolute}.dg.main .close-button:hover{background-color:#111}.dg.a{float:right;margin-right:15px;overflow-y:visible}.dg.a.has-save>ul.close-top{margin-top:0}.dg.a.has-save>ul.close-bottom{margin-top:27px}.dg.a.has-save>ul.closed{margin-top:0}.dg.a .save-row{top:0;z-index:1002}.dg.a .save-row.close-top{position:relative}.dg.a .save-row.close-bottom{position:fixed}.dg li{-webkit-transition:height .1s ease-out;-o-transition:height .1s ease-out;-moz-transition:height .1s ease-out;transition:height .1s ease-out;-webkit-transition:overflow .1s linear;-o-transition:overflow .1s linear;-moz-transition:overflow .1s linear;transition:overflow .1s linear}.dg li:not(.folder){cursor:auto;height:27px;line-height:27px;padding:0 4px 0 5px}.dg li.folder{padding:0;border-left:4px solid rgba(0,0,0,0)}.dg li.title{cursor:pointer;margin-left:-4px}.dg .closed li:not(.title),.dg .closed ul li,.dg .closed ul li>*{height:0;overflow:hidden;border:0}.dg .cr{clear:both;padding-left:3px;height:27px;overflow:hidden}.dg .property-name{cursor:default;float:left;clear:left;width:40%;overflow:hidden;text-overflow:ellipsis}.dg .c{float:left;width:60%;position:relative}.dg .c input[type=text]{border:0;margin-top:4px;padding:3px;width:100%;float:right}.dg .has-slider input[type=text]{width:30%;margin-left:0}.dg .slider{float:left;width:66%;margin-left:-5px;margin-right:0;height:19px;margin-top:4px}.dg .slider-fg{height:100%}.dg .c input[type=checkbox]{margin-top:7px}.dg .c select{margin-top:5px}.dg .cr.function,.dg .cr.function .property-name,.dg .cr.function *,.dg .cr.boolean,.dg .cr.boolean *{cursor:pointer}.dg .cr.color{overflow:visible}.dg .selector{display:none;position:absolute;margin-left:-9px;margin-top:23px;z-index:10}.dg .c:hover .selector,.dg .selector.drag{display:block}.dg li.save-row{padding:0}.dg li.save-row .button{display:inline-block;padding:0px 6px}.dg.dialogue{background-color:#222;width:460px;padding:15px;font-size:13px;line-height:15px}#dg-new-constructor{padding:10px;color:#222;font-family:Monaco, monospace;font-size:10px;border:0;resize:none;box-shadow:inset 1px 1px 1px #888;word-wrap:break-word;margin:12px 0;display:block;width:440px;overflow-y:scroll;height:100px;position:relative}#dg-local-explain{display:none;font-size:11px;line-height:17px;border-radius:3px;background-color:#333;padding:8px;margin-top:10px}#dg-local-explain code{font-size:10px}#dat-gui-save-locally{display:none}.dg{color:#eee;font:11px 'Lucida Grande', sans-serif;text-shadow:0 -1px 0 #111}.dg.main::-webkit-scrollbar{width:5px;background:#1a1a1a}.dg.main::-webkit-scrollbar-corner{height:0;display:none}.dg.main::-webkit-scrollbar-thumb{border-radius:5px;background:#676767}.dg li:not(.folder){background:#1a1a1a;border-bottom:1px solid #2c2c2c}.dg li.save-row{line-height:25px;background:#dad5cb;border:0}.dg li.save-row select{margin-left:5px;width:108px}.dg li.save-row .button{margin-left:5px;margin-top:1px;border-radius:2px;font-size:9px;line-height:7px;padding:4px 4px 5px 4px;background:#c5bdad;color:#fff;text-shadow:0 1px 0 #b0a58f;box-shadow:0 -1px 0 #b0a58f;cursor:pointer}.dg li.save-row .button.gears{background:#c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;height:7px;width:8px}.dg li.save-row .button:hover{background-color:#bab19e;box-shadow:0 -1px 0 #b0a58f}.dg li.folder{border-bottom:0}.dg li.title{padding-left:16px;background:#000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;cursor:pointer;border-bottom:1px solid rgba(255,255,255,0.2)}.dg .closed li.title{background-image:url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==)}.dg .cr.boolean{border-left:3px solid #806787}.dg .cr.color{border-left:3px solid}.dg .cr.function{border-left:3px solid #e61d5f}.dg .cr.number{border-left:3px solid #2FA1D6}.dg .cr.number input[type=text]{color:#2FA1D6}.dg .cr.string{border-left:3px solid #1ed36f}.dg .cr.string input[type=text]{color:#1ed36f}.dg .cr.function:hover,.dg .cr.boolean:hover{background:#111}.dg .c input[type=text]{background:#303030;outline:none}.dg .c input[type=text]:hover{background:#3c3c3c}.dg .c input[type=text]:focus{background:#494949;color:#fff}.dg .c .slider{background:#303030;cursor:ew-resize}.dg .c .slider-fg{background:#2FA1D6;max-width:100%}.dg .c .slider:hover{background:#3c3c3c}.dg .c .slider:hover .slider-fg{background:#44abda}
+</style><style type="text/css">.dg ul{list-style:none;margin:0;padding:0;width:100%;clear:both}.dg.ac{position:fixed;top:0;left:0;right:0;height:0;z-index:0}.dg:not(.ac) .main{overflow:hidden}.dg.main{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear}.dg.main.taller-than-window{overflow-y:auto}.dg.main.taller-than-window .close-button{opacity:1;margin-top:-1px;border-top:1px solid #2c2c2c}.dg.main ul.closed .close-button{opacity:1 !important}.dg.main:hover .close-button,.dg.main .close-button.drag{opacity:1}.dg.main .close-button{-webkit-transition:opacity .1s linear;-o-transition:opacity .1s linear;-moz-transition:opacity .1s linear;transition:opacity .1s linear;border:0;line-height:19px;height:20px;cursor:pointer;text-align:center;background-color:#000}.dg.main .close-button.close-top{position:relative}.dg.main .close-button.close-bottom{position:absolute}.dg.main .close-button:hover{background-color:#111}.dg.a{float:right;margin-right:15px;overflow-y:visible}.dg.a.has-save>ul.close-top{margin-top:0}.dg.a.has-save>ul.close-bottom{margin-top:27px}.dg.a.has-save>ul.closed{margin-top:0}.dg.a .save-row{top:0;z-index:1002}.dg.a .save-row.close-top{position:relative}.dg.a .save-row.close-bottom{position:fixed}.dg li{-webkit-transition:height .1s ease-out;-o-transition:height .1s ease-out;-moz-transition:height .1s ease-out;transition:height .1s ease-out;-webkit-transition:overflow .1s linear;-o-transition:overflow .1s linear;-moz-transition:overflow .1s linear;transition:overflow .1s linear}.dg li:not(.folder){cursor:auto;height:27px;line-height:27px;padding:0 4px 0 5px}.dg li.folder{padding:0;border-left:4px solid rgba(0,0,0,0)}.dg li.title{cursor:pointer;margin-left:-4px}.dg .closed li:not(.title),.dg .closed ul li,.dg .closed ul li>*{height:0;overflow:hidden;border:0}.dg .cr{clear:both;padding-left:3px;height:27px;overflow:hidden}.dg .property-name{cursor:default;float:left;clear:left;width:40%;overflow:hidden;text-overflow:ellipsis}.dg .c{float:left;width:60%;position:relative}.dg .c input[type=text]{border:0;margin-top:4px;padding:3px;width:100%;float:right}.dg .has-slider input[type=text]{width:30%;margin-left:0}.dg .slider{float:left;width:66%;margin-left:-5px;margin-right:0;height:19px;margin-top:4px}.dg .slider-fg{height:100%}.dg .c input[type=checkbox]{margin-top:7px}.dg .c select{margin-top:5px}.dg .cr.function,.dg .cr.function .property-name,.dg .cr.function *,.dg .cr.boolean,.dg .cr.boolean *{cursor:pointer}.dg .cr.color{overflow:visible}.dg .selector{display:none;position:absolute;margin-left:-9px;margin-top:23px;z-index:10}.dg .c:hover .selector,.dg .selector.drag{display:block}.dg li.save-row{padding:0}.dg li.save-row .button{display:inline-block;padding:0px 6px}.dg.dialogue{background-color:#222;width:460px;padding:15px;font-size:13px;line-height:15px}#dg-new-constructor{padding:10px;color:#222;font-family:Monaco, monospace;font-size:10px;border:0;resize:none;box-shadow:inset 1px 1px 1px #888;word-wrap:break-word;margin:12px 0;display:block;width:440px;overflow-y:scroll;height:100px;position:relative}#dg-local-explain{display:none;font-size:11px;line-height:17px;border-radius:3px;background-color:#333;padding:8px;margin-top:10px}#dg-local-explain code{font-size:10px}#dat-gui-save-locally{display:none}.dg{color:#eee;font:11px 'Lucida Grande', sans-serif;text-shadow:0 -1px 0 #111}.dg.main::-webkit-scrollbar{width:5px;background:#1a1a1a}.dg.main::-webkit-scrollbar-corner{height:0;display:none}.dg.main::-webkit-scrollbar-thumb{border-radius:5px;background:#676767}.dg li:not(.folder){background:#1a1a1a;border-bottom:1px solid #2c2c2c}.dg li.save-row{line-height:25px;background:#dad5cb;border:0}.dg li.save-row select{margin-left:5px;width:108px}.dg li.save-row .button{margin-left:5px;margin-top:1px;border-radius:2px;font-size:9px;line-height:7px;padding:4px 4px 5px 4px;background:#c5bdad;color:#fff;text-shadow:0 1px 0 #b0a58f;box-shadow:0 -1px 0 #b0a58f;cursor:pointer}.dg li.save-row .button.gears{background:#c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;height:7px;width:8px}.dg li.save-row .button:hover{background-color:#bab19e;box-shadow:0 -1px 0 #b0a58f}.dg li.folder{border-bottom:0}.dg li.title{padding-left:16px;background:#000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;cursor:pointer;border-bottom:1px solid rgba(255,255,255,0.2)}.dg .closed li.title{background-image:url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==)}.dg .cr.boolean{border-left:3px solid #806787}.dg .cr.color{border-left:3px solid}.dg .cr.function{border-left:3px solid #e61d5f}.dg .cr.number{border-left:3px solid #2FA1D6}.dg .cr.number input[type=text]{color:#2FA1D6}.dg .cr.string{border-left:3px solid #1ed36f}.dg .cr.string input[type=text]{color:#1ed36f}.dg .cr.function:hover,.dg .cr.boolean:hover{background:#111}.dg .c input[type=text]{background:#303030;outline:none}.dg .c input[type=text]:hover{background:#3c3c3c}.dg .c input[type=text]:focus{background:#494949;color:#fff}.dg .c .slider{background:#303030;cursor:ew-resize}.dg .c .slider-fg{background:#2FA1D6;max-width:100%}.dg .c .slider:hover{background:#3c3c3c}.dg .c .slider:hover .slider-fg{background:#44abda}
+</style><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/ERL66fN363FkXxgDc6F1+ucRUkAhjEca9W3la6xaLnD2Y1lABsqmdaJmPNaUKPKVBRpyMKEhXYl7rSvrQw+AkAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A6OdGH3fVf4eKRDbXb4thXA4InNqDJDRhZ8U533U/roYjp4Yau0T3YSuc63vmAs/8ga1cD0E3A7LEq6AXk1uXgsAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MTkzNTk5OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+<body oncontextmenu="return false;">
+    <script async="" src="https://unpkg.com/chart.js@3.6.1/dist/chart.min.js"></script>
+    <div id="preroll">
+    </div>
+    <canvas id="canvas" width="472" height="932" style="width: 472px; height: 932px; filter: none;"></canvas>
+    <div id="speedLinesDiv" style="opacity: 0.3; background-position: -200% -400%; display: none;"></div>
+    <canvas id="canvas2" style="opacity: 0;"></canvas>
+    <div id="flashWhiteDiv" style="opacity: 0;"></div>
+    <div id="load_div_cont" style="visibility: hidden; display: none;">
+        <div id="loading-status"></div>
+        <img src="/dist/1-6-0g/public/img/logos/loading_v1_1.png" id="loadingsvg" style="display: none;">
+        <div id="pre_load_text" class="translate-me" style="display: none;">Connecting ...</div>
+        <div id="load_div" style="display: none;">
+        </div>
+    </div>
+
+    <!-- Begin Game HUD -->
+    <div id="game_hud" style="display: block;">
+        <div id="game_hud_inner">
+            <div id="teamAlivePlayersDiv" style="display: none; top: 40px;">
+                <span class="team_tags" id="teamTag1" style="display: none;"></span>
+                <div id="teamAliveTeam1"></div>
+                <span class="team_tags" id="teamTag2" style="display: none;"></span>
+                <div id="teamAliveTeam2"></div>
+            </div>
+            <div id="join_spin" class="lds-dual-ring" style="display: none;">
+            </div>
+            <div id="my_kill_div" style="display: none;">
+                <div id="my_kill_skull">
+                    <div id="my_kill_number">
+                    </div>
+                </div>
+                <div id="my_kill_text">
+                </div>
+            </div>
+            <div id="score_div" style="display: none;">
+            </div>
+            <div id="error_message" style="display: none;">
+            </div>
+            <div id="right_side_wrapper" class="ui-scalable hud">
+                <div id="info_cont">
+                    <div id="time_left">
+                        <img id="time_icon" src="/dist/1-6-0g/public/img/icons/time.png">
+                        <span>2:33
+                        </span>
+                    </div>
+                    <div id="fps_meter">
+                        <span>59 FPS
+                        </span>
+                    </div>
+                    <div id="ping_meter">
+                        <img id="ping_icon" src="/dist/1-6-0g/public/img/icons/ping.png">
+                        <span>84
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="statsTableDivCont">
+                <button id="stats-tab-leaderboard-bttn" style="left:75px;display:none;" class="stats-tab-bttn-selected">Leaderboard</button>
+                <button id="stats-tab-earn-bttn" style="left:190px;display:none;" class="stats-tab-bttn-not-selected">Earn</button>
+                <button id="stats-tab-performance-bttn" style="left:245px;display:none;" class="stats-tab-bttn-not-selected">Performance</button>
+                <div id="statsTableDiv">
+                    <div id="stats_results_holder">
+                        <div id="stats_results" style="display: none;">
+                        </div>
+                        <table id="statsTable" class="table is_teams_0">
+                        <thead id="statsTableTopRow" class="thead-dark"><tr><th></th><th>Player</th><th>Score</th><th>Assists</th><th>Kills</th><th>Deaths</th><th>K/D</th></tr></thead><tr data-team="0" id="stats_row_43431" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_43431"><div class="msg_profile_score "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb">Guest1929</span><span class="rank_"></span></span></td><td id="stats_cell_score_43431">382</td><td id="stats_cell_assists_43431">0</td><td id="stats_cell_kills_43431">9</td><td id="stats_cell_deaths_43431">1</td><td id="stats_cell_kd_43431">9</td></tr><tr data-team="0" id="stats_row_43426" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_43426"><div class="msg_profile_score "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb">Guest9855</span><span class="rank_"></span></span></td><td id="stats_cell_score_43426">285</td><td id="stats_cell_assists_43426">2</td><td id="stats_cell_kills_43426">6</td><td id="stats_cell_deaths_43426">1</td><td id="stats_cell_kd_43426">6</td></tr><tr data-team="0" id="stats_row_43417" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_43417"><div class="msg_profile_score "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb" style="text-decoration: none; font-style: normal;">Guest2429</span><span class="rank_"></span></span></td><td id="stats_cell_score_43417">180</td><td id="stats_cell_assists_43417">1</td><td id="stats_cell_kills_43417">3</td><td id="stats_cell_deaths_43417">4</td><td id="stats_cell_kd_43417">0.75</td></tr><tr data-team="0" id="stats_row_43405" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_43405"><div class="msg_profile_score "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb" style="text-decoration: none; font-style: normal;"><a style="color: #ffffff" target="_blank" href="https://ev.io/user/941440">XxxCool</a></span><span class="rank_"></span></span></td><td id="stats_cell_score_43405">90</td><td id="stats_cell_assists_43405">0</td><td id="stats_cell_kills_43405">3</td><td id="stats_cell_deaths_43405">3</td><td id="stats_cell_kd_43405">1</td></tr><tr data-team="0" id="stats_row_43378" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_43378"><div class="msg_profile_score "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb" style="text-decoration: line-through; font-style: italic;">Guest1135</span><span class="rank_"></span></span></td><td id="stats_cell_score_43378">68</td><td id="stats_cell_assists_43378">0</td><td id="stats_cell_kills_43378">2</td><td id="stats_cell_deaths_43378">3</td><td id="stats_cell_kd_43378">0.67</td></tr><tr data-team="0" id="stats_row_9900006" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_9900006"><div class="msg_profile_score "><img src="https://ev.io/sites/default/files/skin_profile_thumbs/botred110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb">Clanky <sup class="bot_strength">lvl 4</sup></span><span class="rank_"></span></span></td><td id="stats_cell_score_9900006">0</td><td id="stats_cell_assists_9900006">0</td><td id="stats_cell_kills_9900006">0</td><td id="stats_cell_deaths_9900006">2</td><td id="stats_cell_kd_9900006">0</td></tr><tr data-team="0" id="stats_row_9900007" class="stats_row"><td></td><td class="stats_cell_name" id="stats_cell_name_9900007"><div class="msg_profile_score "><img src="https://ev.io/sites/default/files/skin_profile_thumbs/botred110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb" style="text-decoration: none; font-style: normal;">Botty <sup class="bot_strength">lvl 4</sup></span><span class="rank_"></span></span></td><td id="stats_cell_score_9900007">0</td><td id="stats_cell_assists_9900007">0</td><td id="stats_cell_kills_9900007">0</td><td id="stats_cell_deaths_9900007">4</td><td id="stats_cell_kd_9900007">0</td></tr><tr data-team="0" id="stats_row_43429" class="stats_row _current"><td></td><td class="stats_cell_name" id="stats_cell_name_43429"><div class="msg_profile_score "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="clan_insignia_scoreboard"> </span><span class="name_area_score"><span class="name_text_sb" style="text-decoration: none; font-style: normal;">Guest4534</span><span class="rank_"></span></span></td><td id="stats_cell_score_43429">0</td><td id="stats_cell_assists_43429">0</td><td id="stats_cell_kills_43429">0</td><td id="stats_cell_deaths_43429">1</td><td id="stats_cell_kd_43429">0</td></tr></table>
+                        <div id="statsTableSpectators">
+                            <span id="spectatorsLabel"></span>
+                            <span id="spectatorsList"></span>
+                        </div>
+                        <div id="rewards">
+                        </div>
+                    </div>
+                    <div id="earnDiv">
+                        Performance
+                    </div>
+                    <div id="performanceDiv">
+                        Performance
+                    </div>
+                </div>
+                <div style="clear:both;">
+                </div>
+            </div>
+            <div id="killMessagesDiv"><div class="sys_message"><div class="msg_profile "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="msg_name">Guest2429</span><div style="background-image:url(https://ev.io//sites/default/files/weapon_icons/ar_0.png);" class="killMessageGunIcon"></div><div class="msg_profile "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="msg_name">Guest1135</span></div>
+            </div>
+            <div id="stateMessagesDiv" style="opacity: 0;">
+            </div>
+            <div id="chatMessagesDiv">
+                <div id="chatMessagesDivInner">
+                </div>
+            </div>
+            <div id="chatLogDiv">
+            </div>
+            <div id="ammoDiv" class="ui-scalable hud">
+                <span id="ammo_smaller">
+                </span>
+            </div>
+            <div class="ui-scalable" id="cartridgeDivBar">
+                <div id="cartridge" style="width: 385px;">
+                </div>
+            </div>
+            <div id="weaponsDiv" class="ui-scalable-center ui-scalable hud" style="margin-left: -76px; transform: scale(1); display: block;"><div id="weapon_div_701" data-hotkey="1" class="sweeper_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_701" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_0" weapon-id="701">1</div><div><img title="Sweeper" alt="Sweeper" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/sweeper_icon.png"></div></div><div id="weapon_div_635" data-hotkey="N" class="bomb_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_635" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_1" weapon-id="635">N</div><div><img title="Bomb" alt="Bomb" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/BombWhiteIcon%20%281%29.png"></div></div><div id="weapon_div_336" data-hotkey="1" class="burstrifle_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_336" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_5" weapon-id="336">1</div><div><img title="Burst Rifle" alt="Burst Rifle" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/bricon.png"></div></div><div id="weapon_div_283" data-hotkey="8" class="grenadelauncher_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_283" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_6" weapon-id="283">8</div><div><img title="Grenade Launcher" alt="Grenade Launcher" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/glic.png"></div></div><div id="weapon_div_282" data-hotkey="6" class="smg_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_282" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_7" weapon-id="282">6</div><div><img title="SMG" alt="SMG" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/SMGIcon2.png"></div></div><div id="weapon_div_281" data-hotkey="7" class="deserteagle_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_281" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_8" weapon-id="281">7</div><div><img title="Desert Eagle" alt="Desert Eagle" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/DeagleIcon2.png"></div></div><div id="weapon_div_262" data-hotkey="Z" class="sword_icon weapon_cont" style="display: block;"><div id="weapon_div_ammo_262" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_9" weapon-id="262">Z</div><div><img title="Sword" alt="Sword" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/sw2_0.png"></div></div><div id="weapon_div_9" data-hotkey="1" class="laserrifle_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_9" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_17" weapon-id="9">1</div><div><img title="Laser Rifle" alt="Laser Rifle" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/laser_rifle11.png"></div></div><div id="weapon_div_8" data-hotkey="4" class="rocketlauncher_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_8" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_18" weapon-id="8">4</div><div><img title="Rocket Launcher" alt="Rocket Launcher" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/rl11.png"></div></div><div id="weapon_div_7" data-hotkey="2" class="shotgun_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_7" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_19" weapon-id="7">2</div><div><img title="Shotgun" alt="Shotgun" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/shotgun_icon_200x80.png"></div></div><div id="weapon_div_6" data-hotkey="3" class="sniperrifle_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_6" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_20" weapon-id="6">3</div><div><img title="Sniper Rifle" alt="Sniper Rifle" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/sniper11.png"></div></div><div id="weapon_div_5" data-hotkey="1" class="handcannon_icon weapon_cont" style="display: none;"><div id="weapon_div_ammo_5" class="ammo_amt">∞</div><div class="weapons_hotkey" id="weapons_hotkey_21" weapon-id="5">1</div><div><img title="Hand Cannon" alt="Hand Cannon" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/hc9993.png"></div></div><div id="weapon_div_4" data-hotkey="1" class="autorifle_icon weapon_cont activeWeapon" style="display: block;"><div id="weapon_div_ammo_4" class="ammo_amt">50 / ∞</div><div class="weapons_hotkey" id="weapons_hotkey_22" weapon-id="4">1</div><div><img title="Auto Rifle" alt="Auto Rifle" class="weapon_icon" src="https://ev.io//sites/default/files/weapon_icons/ar_0.png"></div></div></div>
+ 
+
+            <svg height="100" width="100" id="reloadingBar">
+ <circle cx="50" cy="50" r="40" stroke="#fff" stroke-width="6" fill-opacity="0.0"></circle>
+</svg> 
+
+            <div id="respawnDiv">
+                <div id="killedByMsgDiv">
+                </div>
+                <div id="respawnButton">Press Space to respawn
+                </div>
+            </div>
+            <div id="items_container">
+            </div>
+            <div id="lower_left_container">
+                <div id="healthNumberDiv">100/100
+                </div>
+                <div id="current_ammo_num">0 / 0
+                </div>
+                <div id="healthDivCont" class="ui-scalable ui-scalable-left hud">
+                    <div id="healthDiv" style="width: 340px;">
+                    </div>
+                    <div id="armorDiv" style="width: 0px;">
+                    </div>
+                </div>
+                <div id="manaDivCont" class="ui-scalable ui-scalable-left hud" style="display: block;">
+                    <div id="manaDiv" style="width: 340px;">
+                    </div>
+                </div>
+                <div id="icons_container" style="display: block;"><div class="ab_icon_cont" data-ab-id="0"><span class="ab_icon_base"></span><div class="active_ab_cd_div" style="width: 50px;"><div class="ab_hotkey" data-key="9">Q</div><div class="ab_count">1</div></div></div><div class="ab_icon_cont" data-ab-id="8"><span class="ab_icon_base"></span><div class="active_ab_cd_div" style="width: 50px;"><div class="ab_hotkey" data-key="19">G</div><div class="ab_count">2</div></div></div><div class="ab_icon_cont" data-ab-id="9"><span class="ab_icon_base"></span><div class="active_ab_cd_div" style="width: 50px;"><div class="ab_hotkey" data-key="20">U</div><div class="ab_count">1</div></div></div><div class="ab_icon_cont" data-ab-id="13"><span class="ab_icon_base"></span><div class="active_ab_cd_div" style="width: 50px;"><div class="ab_hotkey" data-key="22">V</div><div class="ab_count">1</div></div></div><div class="ab_icon_cont" data-ab-id="16"><span class="ab_icon_base"></span><div class="active_ab_cd_div" style="width: 50px;"><div class="ab_hotkey" data-key="38">E</div><div class="ab_count">2</div></div></div></div>
+            </div>
+            <div id="ping_div" style="display: none;">
+                <span>Ping:
+                </span>
+                <span id="ping_span">100
+                </span>
+            </div>
+            <div id="fps_div" style="display: none;">
+                <span>FPS:
+                </span>
+                <span id="fps_span">60
+                </span>
+            </div>
+            <div id="hamburger" class="hud" style="display: block;">
+                <img src="/dist/1-6-0g/public/img/icons/hamburger.png">
+                <span id="menu_hotkey_top">M
+                </span>
+            </div>
+
+
+            <div id="roundCountdownContainer">
+                <span id="team_1_top_score" style="display: none;">0</span>
+                <div id="roundCountdown"><span id="time_icon" class="glyphicon glyphicon-time" aria-hidden="true"></span>0:44</div>
+                <span id="team_2_top_score" style="display: none;">0</span>
+                <div id="missionInfoDiv"></div>
+                <div id="roundCounter"></div>
+            </div>
+            <div id="roundOverMessage">Round Complete
+            </div>
+            <div id="xp_bar" class="hud" style="display: block;">
+                <div id="xp_inner" style="width: 70%;">
+                </div>
+            </div>
+            <div id="xp_notify">+ 0 XP
+            </div>
+            <div id="spec_target_div" style="display: none;">
+                <div id="freeCamMsgDiv"></div>
+                <div id="spec_target_div_inner"></div>
+            </div>
+
+
+            <div id="resurrect_div" style="display: none;">
+            </div>
+            <div id="resurrect_div_bar" style="display: none;">
+                <div id="resurrect_div_bar_inner">
+                </div>
+            </div>
+            <div id="survival_boss_info" style="right: 20px;">
+                <div id="survival_boss_info_boss"></div>
+                <div id="special_wave_info"></div>
+            </div>
+
+            <div id="permaLeaderboard" style="display: none;">
+                <table id="permaLeaderboardTable"></table>
+                <div id="linkToLeaderboardPageDiv"></div>
+            </div>
+        <div id="nft-acquire-notification">
+			<div id="nft-acquire-notification-inner"></div>
+			<div id="nft-acquire-notification-inner-container">
+				<img id="nft-acquire-notification-thumb" src="#">
+				<h2>Token Acquired!</h2>
+			</div>
+			<p id="notify_nft">The  token is on its way to your wallet! Check it in a few minutes. Press [X] to dismiss. </p>
+		</div><div id="emoji-popup"></div><div id="killed_by_div" style="top: 100px; display: none;"><div id="my_kill_text" class="killed">Killed by Guest2429</div><div id="you_v_them_cont"><div id="you"><div class="msg_profile "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div> <span class="youword">You</span><span class="count">0</span></div><div id="them"><div class="msg_profile "><img src="https://ev.io//sites/default/files/skin_profile_thumbs/DefaultPlayer110x110.png"></div><span class="killer_word">Guest2429</span><span class="count">1</span></div></div></div></div>
+
+        <canvas id="canvas_crosshair" width="200" height="200" style="display: block;">
+        </canvas>
+
+    </div>
+    <!-- End Game HUD -->
+
+    <!-- Begin Game Menu Overlay-->
+    <div id="game_menu_overlay" data-delay="1" style="display: none;">
+        <div id="black_overlay"></div>
+
+        <div id="enter_party_id" style="display: none; ">
+            <span id="close_enter_party" class="close_button">[x]
+            </span>
+            <input placeholder="enter party code ..." type="text" id="party_alias_input" style="">
+            <button class="btn" id="join_party_enter">JOIN
+            </button>
+        </div>
+
+        <div id="links_center">
+            <button id="exit_test_mode_button" type="button" class="btn translate-me" style="display: none;">Exit test mode</button>
+            <button id="lobby_list_button" type="button" class="btn" style="display: none;">Tourney Lobbies
+            </button>
+            <button id="mini_games_button" type="button" class="btn translate-me" style="display: none;">Minigames</button>
+
+
+            <div class="btn" id="create_tournament_button">
+                <div name="game-modes" id="tournament-select" class="form-control">
+                    <div class="translate-me">tournament</div>
+                </div>
+            </div>
+            <!--<button type="button" id="create_tournament_button" class="btn translate-me">Create Tournament</button>-->
+            <div id="party_hr" class="hr"></div>
+
+            <button type="button" id="load_replay_button" class="btn translate-me" style="display: none;">Load Replay</button>
+        </div>
+
+        <div id="local_game_warning" style="display: none;" class="translate-me">multiplayer will not work on this game as it is running locally</div>
+
+        <div id="top_bar" class="menu_overlay">
+            <img id="logo" src="/dist/1-6-0g/public/img/logos/evio1.png">
+            <div id="top_bar_cont"><div class="dropdown" id="game_mode_menu"><span name="game-modes" id="game-modes-select"><button class="btn btn-default dropdown-toggle" type="button" id="gameModesDropDown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Public Game<span class="caret"></span></button><ul class="dropdown-menu" aria-labelledby="gameModesDropDown"><li data-mode-id="deathmatch_earn" class="game-modes-select-option"><a href="#">Deathmatch (earn)</a></li><li data-mode-id="sniper_shotgun" class="game-modes-select-option"><a href="#">Sniper Shotgun</a></li><li data-mode-id="team_deathmatch" class="game-modes-select-option"><a href="#">Team Deathmatch</a></li><li data-mode-id="last_man_standing" class="game-modes-select-option"><a href="#">Battle Royale</a></li><li data-mode-id="survival_earn" class="game-modes-select-option"><a href="#">Survival (earn)</a></li></ul></span></div>
+                            <button id="priv_game" type="button" class="btn translate-me">Private</button>
+
+
+
+            
+
+         <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Loadout
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+    <li><a id="abilities_button_top" href="#">Abilities</a></li>
+
+    <li><a id="profile_button" href="#">Inventory</a></li>
+        <li><a id="lend_skins_button" href="https://ev.io/lend" target="_blank">Lend Skins</a></li>
+        <li><a id="abilities_button_top" href="https://ev.io/preview" target="_blank">Skin Prevew Tool <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+    <!--
+         <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Store
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu5">
+    <li><a id="store_button" href="#">Rotation</a></li>
+
+    <li><a id="spin_button" href="#">Spin Wheel</a></li>
+
+  </ul>
+</div>
+-->
+
+
+
+
+
+
+        
+            
+
+
+
+      <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="social-nav-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Social
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="social-nav-button">
+    <li><a id="social_friends_list_button" href="#">Friends List</a></li>
+    <li><a id="social_clan_button" href="#">Clan Hub</a></li>
+    <li><a id="social_add_friend_button" href="#">Add a Friend</a></li>
+    <li><a id="social_clan_invites" href="#">Clan Invites</a></li>
+    <li><a id="social_my_profile" href="#">My Profile</a></li>
+    <li><a id="social_set_bio" href="#">Set bio</a></li>
+    <li><a id="create_party_button" href="#">Create Party</a></li>
+    <li><a id="join_party_button" href="#">Join Party</a></li>
+  </ul>
+</div>       
+
+
+
+        
+            <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Crypto
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+      <li><a id="connect-wallet-secondary-btn" href="#">Connect Wallet</a></li>
+
+    <li><a id="claim-sol-profile-bttn" href="#">Convert</a></li>
+    <li><a id="claim-sol-profile-history-bttn" href="#">Conversion History</a></li>
+        <li><a href="https://ev.io/burn" target="_blank">Craft <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+
+    <li><a href="https://nft.ev.io" target="_blank">Earn <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+    <li><a href="https://explorer.ev.io" target="_blank">Collection Explorer <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+    <li><a href="https://fractal.is/ev" target="_blank">Marketplace <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+    <li><a href="https://ev.io/vote" target="_blank">Governance <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+
+  </ul>
+</div>
+         
+
+
+
+
+
+               <button type="button" id="settings_button" class="btn btn-secondary btn-sm translate-me">Settings</button>
+
+
+            </div>
+        </div>
+
+        <div id="mobile-main-menu" class="menu_overlay">
+            <div id="mobile-main-menu-center">
+                <button type="button" id="mobile-abilities_button" class="mobile-abilities-button"></button>
+                <button type="button" id="mobile-profile_button" class="mobile-profile-button"></button>
+                <button type="button" id="mobile-settings_button" class="mobile-settings-button"></button>
+            </div>
+        </div>
+
+        <div id="bottom_bar" class="menu_overlay">
+            <div id="bottom_bar_left">
+                                <button type="button" id="login_button" class="btn btn-secondary btn-sm translate-me">Login</button>
+                                <button type="button" id="rankings_button" class="btn btn-secondary btn-sm">
+                    <span class="translate-me">Rankings</span>
+                </button>
+
+                <button type="button" id="feedback_button" class="btn btn-secondary btn-sm">
+                    <span class="translate-me">Feedback</span>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-sm">
+                    <a href="https://ev.io/info" target="_blank" class="translate-me">More</a>
+                </button>
+
+                <button type="button" class="btn btn-secondary btn-sm" id="editor_button" style="display: none;">
+                    <span>Editor</span>
+                </button>
+
+            </div>
+            <div id="bottom_bar_right">
+                <button type="button" id="abilities_button" class="btn btn-secondary btn-sm">
+                    <img id="abilities_icon" src="/dist/1-6-0g/public/img/icons/abilities_sm.png">
+                    <span class="translate-me">Abilities</span> ⥤
+                </button>
+
+                <a target="_blank" class="sm_link" id="twitter" href="https://twitter.com/play_evio">
+                    <img src="/dist/1-6-0g/public//img/twitter.png">
+                </a>
+                <!--
+                <a target="_blank" class="sm_link" id="discord" href="https://www.tiktok.com/@play_evio">
+                    <img src="/dist/1-6-0g/public//img/tik-tok.png" />
+                </a>
+
+                -->
+                <a target="_blank" class="sm_link" id="reddit" href="https://discord.gg/PsqyKjDKBZ">
+                    <img src="/dist/1-6-0g/public//img/discord.jpg">
+                </a>
+            </div>
+        </div>
+
+        <div id="daily_quests_div"></div>
+
+        <img alt="toggle full screen" title="toggle full screen" src="/dist/1-6-0g/public/icons/open_fullscreen.png" id="full_screen_button">
+        <div id="party_container" style="display: none">
+            <div id="party_count">( 1 / 4 )
+            </div>
+            <div id="party_members">
+            </div>
+            <div id="party_actions">
+                <button id="share_party_button" type="button" class="btn">
+                    <span class="share_link_span">Share Link
+                    </span>
+                    <span class="copied_link_span">Copied!
+                    </span>
+                </button>
+                <button id="leave_party_button" type="button" class="btn translate-me">Leave Party</button>
+            </div>
+            <span id="party_alias">
+            </span>
+        </div>
+
+        <div id="ad_728" class="banner_ad"></div> 
+      
+    <!--  <div id="ev-io_728x90_2" class="banner_ad"></div> -->
+    <div id="tt_cont"><a id="twitch_follow_link" href="https://www.twitch.tv/directory/game/ev.io" target="_blank"><img style="width: 120px; height: 40px;" id="twitch_follow" src="/dist/1-6-0g/public//img/twitch.png"></a><div id="tt_cont_inner"><p style="display: none">Stream <a target="_blank" href="https://www.twitch.tv/directory/game/ev.io"> ev.io on twitch </a> and see your stream here!</p><div id="any_promos" style=""></div></div></div><p id="text_promo">NFTs are coming to ev.io... Read more at <a style="color: orange" href="//nft.ev.io" target="blank">nft.ev.io</a>!</p><div id="spectate_hr" class="hr"></div></div>
+    <!-- End Game Menu Overlay -->
+
+    <div id="editorBar" style="display: none;"></div>
+    <div id="editorDataWindow" style="display: none;"></div>
+    <div id="editorWeaponsWindow" style="display: none;"></div>
+    <div id="editorFeedWindow" style="display: none;"></div>
+    <div id="editorNewTriggerWindow" style="display: none;">
+        <div id="editorNewTriggerWindowContent"></div>
+        <button id="editorNewTriggerWindowCloseButton">X</button>
+    </div>
+
+    <!-- Begin Lobby Screen -->
+    <div id="lobbyBG" style="display: none;">
+        <div id="lobbyDiv">
+            <div id="lobbyDivGameMode"></div>
+            <div id="lobbyDivSettings">
+                <div class="translate-me" id="lobbyDivSettingsTitle">Settings</div>
+                <div id="lobbyDivOptions"></div>
+                <div id="tournament_maps_select">
+                    <div id="selected_map_div">
+                        <div id="selected_map_div_title"></div>
+                    </div>
+                    <div id="tournament_map_list_div"></div>
+                </div>
+            
+            <div style="clear:both;"></div>
+            </div>
+            <div id="lobbyTeamsDiv">
+                <div id="lobbyDivTeam1">
+                    <div id="lobbDivTeam1Title">Team 1</div>
+                    <div id="lobbDivTeam1Content"></div>
+                </div>
+                <div id="lobbyDivTeam2">
+                    <div id="lobbDivTeam2Title">Team 2</div>
+                    <div id="lobbDivTeam2Content"></div>
+                </div>
+                <div id="lobbyDivTeam3">
+                    <div class="translate-me" id="lobbDivTeam3Title">Spectators</div>
+                    <div id="lobbDivTeam3Content"></div>
+                </div>
+            </div>
+            <div id="lobbyDivButtons">
+                <button class="btn translate-me" id="lobbyDivStartButton">Start</button>
+                <button id="lobbyDivShareButton" type="button" class="btn">
+                    <span class="share_link_span">Share Game</span>
+                    <span class="copied_link_span">Copied!</span>
+                </button>
+                <button class="btn translate-me" id="lobbyDivQuitButton">Return To Menu</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Lobby Screen -->
+
+    <div id="fracSurPWDiv" style="display: none;">
+        <div>This gamemode requires a password</div>
+        <div><input type="text" id="fraSurPWInput"></div>
+        <div><button id="fracSurStartButton">start</button></div>
+        <div id="fracSurStateMsgDiv"></div>
+        <button id="fracSurCancelButton" style="display: none;">[X]</button>
+    </div>
+
+    <input type="text" id="chat_input" style="display: none;">
+    <div id="team_chat_toggle" style="display: none;"></div>
+    <div id="chat_log_div" style="display: none;">
+    </div>
+    <script src="https://unpkg.com/core-js-bundle@3.6.5/minified.js">
+    </script>
+    <script src="https://www.unpkg.com/promise-polyfill@8.1.3/dist/polyfill.min.js">
+    </script>
+    <script src="https://unpkg.com/whatwg-fetch@3.0.0/dist/fetch.umd.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/dat.gui.min.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/lodash.min.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/simplebar.min.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/tween.umd.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/three.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/msgpack.min.js">
+    </script>
+    <script src="/dist/1-6-0g/public/libs/howler.min.js">
+    </script>
+    <script>
+        window.Howler__shim__ = {
+            Howler,
+            Howl
+        };
+    </script>
+    <!-- Libs needed to make client-side wallet transactions -->
+    <script src="/dist/1-6-0g/public//sdks/web3.js">
+    </script>
+    <script src="/dist/1-6-0g/public//sdks/bs58.js">
+    </script>
+    <!--  -->
+    <script src="/dist/1-6-0g/public/bundle.js?ver=34567n">
+    </script>
+    
+        <div style="display: none" id="coin_balance_init">
+        </div>
+
+
+
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+</script>
+
+
+<div id="ability_window_module" class="module_box ability" style="z-index: 999911; display: none;"><span class="close_button">[x]</span><div class="module_content"><div id="ab_main_cont"><button id="ability_reset" class="btn btn-outline-warning">Clear</button><h2 style="display: none;" id="ab_title" data-first="1">Abilities Loadout</h2><div style="display: none;" id="ability-top"><button id="ability_save" class="btn btn-outline-primary">Save</button><div id="totalPointsDisplayNew" style="color: yellow;">Unspent points: 5</div></div><div id="abilityWindowInner"><div id="abilityLeft" class="container-abilities"><div id="row_level_req_0"><div class="points points_spend_0"><div id="info_column_0" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">0</span> / <span class="max_value">0</span></span></div></div></div><div id="row_level_req_1"><div class="points points_spend_1"><div id="info_column_1" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">3</span> / <span class="max_value">3</span></span></div></div><div><button id="ability_tree_ab_0" class="btn btn-default tooltip_container teleport" title="left click to spend / right click unspend" data-ability-id="0" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/teleport.svg"><div data-ability-id="0" class="clickable_diamond" id="clickable-ability_tree_ab_0" src="/dist/1-6-0g/public/icons/new_abilities/teleport.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_0 tier_0"><span class="next_rank">Next rank</span>:<br> Teleports you forward.</li><li style="" class="ab_id_0 tier_1">Current rank:<br> Teleports you forward.<br><br><span class="next_rank">Next rank</span>:<br> Teleport more frequently.</li><li style="display: none;" class="ab_id_0 tier_2">Current rank:<br> Teleport more frequently.<br><br><span class="next_rank">Next rank</span>:<br> Teleport the most frequently.</li><li style="display: none;" class="ab_id_0 tier_3">Current rank:<br> Teleport the most frequently.</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_0">Q</span></div></div></div><span id="ability_tree_bar_parent_div_0" class="tick tick_1"><img id="tick-num-0" src="/dist/1-6-0g/public/icons/abilities/Ticks_0-3.svg" style="display: none;"><img id="tick-num-1" src="/dist/1-6-0g/public/icons/abilities/Ticks_1-3.svg" style="display: block;"><img id="tick-num-2" src="/dist/1-6-0g/public/icons/abilities/Ticks_2-3.svg" style="display: none;"><img id="tick-num-3" src="/dist/1-6-0g/public/icons/abilities/Ticks_3-3.svg" style="display: none;"></span></button></div><div><button id="ability_tree_ab_1" class="btn btn-default tooltip_container jump" title="left click to spend / right click unspend" data-ability-id="1" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/jump.svg"><div data-ability-id="1" class="clickable_diamond" id="clickable-ability_tree_ab_1" src="/dist/1-6-0g/public/icons/new_abilities/jump.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_1 tier_0"><span class="next_rank">Next rank</span>:<br> Jump higher</li><li style="display: none;" class="ab_id_1 tier_1">Current rank:<br> Jump higher<br><br><span class="next_rank">Next rank</span>:<br> Jump higher and <span class="change_val"> two times </span></li><li style="" class="ab_id_1 tier_2">Current rank:<br> Jump higher and <span class="change_val"> two times </span><br><br><span class="next_rank">Next rank</span>:<br> Jump higher and <span class="change_val"> three times </span></li><li style="display: none;" class="ab_id_1 tier_3">Current rank:<br> Jump higher and <span class="change_val"> three times </span></li></ul></div></div><span id="ability_tree_bar_parent_div_1" class="tick tick_2"><img id="tick-num-0" src="/dist/1-6-0g/public/icons/abilities/Ticks_0-3.svg" style="display: none;"><img id="tick-num-1" src="/dist/1-6-0g/public/icons/abilities/Ticks_1-3.svg" style="display: none;"><img id="tick-num-2" src="/dist/1-6-0g/public/icons/abilities/Ticks_2-3.svg" style="display: block;"><img id="tick-num-3" src="/dist/1-6-0g/public/icons/abilities/Ticks_3-3.svg" style="display: none;"></span></button></div><div><button id="ability_tree_ab_2" class="btn btn-default tooltip_container sprint inactive_" title="left click to spend / right click unspend" data-ability-id="2" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/sprint.svg"><div data-ability-id="2" class="clickable_diamond" id="clickable-ability_tree_ab_2" src="/dist/1-6-0g/public/icons/new_abilities/sprint.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_2 tier_0"><span class="next_rank">Next rank</span>:<br> Sprint uses <span class="change_val">36%</span> less stamina</li><li style="display: none;" class="ab_id_2 tier_1">Current rank:<br> Sprint uses <span class="change_val">36%</span> less stamina<br><br><span class="next_rank">Next rank</span>:<br> Sprint uses <span class="change_val">52%</span> less stamina</li><li style="display: none;" class="ab_id_2 tier_2">Current rank:<br> Sprint uses <span class="change_val">52%</span> less stamina<br><br><span class="next_rank">Next rank</span>:<br> Sprint uses <span class="change_val">72%</span> less stamina</li><li style="display: none;" class="ab_id_2 tier_3">Current rank:<br> Sprint uses <span class="change_val">72%</span> less stamina</li></ul></div></div><span id="ability_tree_bar_parent_div_2" class="tick tick_0"><img id="tick-num-0" src="/dist/1-6-0g/public/icons/abilities/Ticks_0-3.svg" style="display: block;"><img id="tick-num-1" src="/dist/1-6-0g/public/icons/abilities/Ticks_1-3.svg" style="display: none;"><img id="tick-num-2" src="/dist/1-6-0g/public/icons/abilities/Ticks_2-3.svg" style="display: none;"><img id="tick-num-3" src="/dist/1-6-0g/public/icons/abilities/Ticks_3-3.svg" style="display: none;"></span></button></div></div><div id="row_level_req_3"><div class="points points_spend_2"><div id="info_column_2" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">3</span> / <span class="max_value">3</span></span></div></div><div><button id="ability_tree_ab_3" class="btn btn-default tooltip_container quick_draw" title="left click to spend / right click unspend" data-ability-id="3" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/quickswap.svg"><div data-ability-id="3" class="clickable_diamond" id="clickable-ability_tree_ab_3" src="/dist/1-6-0g/public/icons/new_abilities/quickswap.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_3 tier_0"><span class="next_rank">Next rank</span>:<br> Change guns <span class="change_val">.2</span> sec faster</li><li style="display: none;" class="ab_id_3 tier_1">Current rank:<br> Change guns <span class="change_val">.2</span> sec faster<br><br><span class="next_rank">Next rank</span>:<br> Change guns <span class="change_val">.4</span> sec faster</li><li style="" class="ab_id_3 tier_2">Current rank:<br> Change guns <span class="change_val">.4</span> sec faster<br><br><span class="next_rank">Next rank</span>:<br> Change guns <span class="change_val">.8</span> sec faster</li><li style="display: none;" class="ab_id_3 tier_3">Current rank:<br> Change guns <span class="change_val">.8</span> sec faster</li></ul></div></div><span id="ability_tree_bar_parent_div_3" class="tick tick_2"><img id="tick-num-0" src="/dist/1-6-0g/public/icons/abilities/Ticks_0-3.svg" style="display: none;"><img id="tick-num-1" src="/dist/1-6-0g/public/icons/abilities/Ticks_1-3.svg" style="display: none;"><img id="tick-num-2" src="/dist/1-6-0g/public/icons/abilities/Ticks_2-3.svg" style="display: block;"><img id="tick-num-3" src="/dist/1-6-0g/public/icons/abilities/Ticks_3-3.svg" style="display: none;"></span></button></div><div><button id="ability_tree_ab_4" class="btn btn-default tooltip_container quick_load" title="left click to spend / right click unspend" data-ability-id="4" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/quickreload.svg"><div data-ability-id="4" class="clickable_diamond" id="clickable-ability_tree_ab_4" src="/dist/1-6-0g/public/icons/new_abilities/quickreload.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_4 tier_0"><span class="next_rank">Next rank</span>:<br> Load guns <span class="change_val">.3</span> sec faster</li><li style="" class="ab_id_4 tier_1">Current rank:<br> Load guns <span class="change_val">.3</span> sec faster<br><br><span class="next_rank">Next rank</span>:<br> Load guns <span class="change_val">.6</span> sec faster</li><li style="display: none;" class="ab_id_4 tier_2">Current rank:<br> Load guns <span class="change_val">.6</span> sec faster<br><br><span class="next_rank">Next rank</span>:<br> Load guns <span class="change_val">.9</span> sec faster</li><li style="display: none;" class="ab_id_4 tier_3">Current rank:<br> Load guns <span class="change_val">.9</span> sec faster</li></ul></div></div><span id="ability_tree_bar_parent_div_4" class="tick tick_1"><img id="tick-num-0" src="/dist/1-6-0g/public/icons/abilities/Ticks_0-3.svg" style="display: none;"><img id="tick-num-1" src="/dist/1-6-0g/public/icons/abilities/Ticks_1-3.svg" style="display: block;"><img id="tick-num-2" src="/dist/1-6-0g/public/icons/abilities/Ticks_2-3.svg" style="display: none;"><img id="tick-num-3" src="/dist/1-6-0g/public/icons/abilities/Ticks_3-3.svg" style="display: none;"></span></button></div></div><div id="row_level_req_6"><div class="points points_spend_3"><div id="info_column_3" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">0</span> / <span class="max_value">3</span></span></div></div><div><button id="ability_tree_ab_7" class="btn btn-default tooltip_container melee_damage inactive_" title="left click to spend / right click unspend" data-ability-id="7" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/abilities/Melee.svg"><div data-ability-id="7" class="clickable_diamond" id="clickable-ability_tree_ab_7" src="/dist/1-6-0g/public/icons/abilities/Melee.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_7 tier_0"><span class="next_rank">Next rank</span>:<br> <span class="change_val">10</span> bonus melee damage</li><li style="display: none;" class="ab_id_7 tier_1">Current rank:<br> <span class="change_val">10</span> bonus melee damage<br><br><span class="next_rank">Next rank</span>:<br> <span class="change_val">20</span> bonus melee damage</li><li style="display: none;" class="ab_id_7 tier_2">Current rank:<br> <span class="change_val">20</span> bonus melee damage<br><br><span class="next_rank">Next rank</span>:<br> <span class="change_val">30</span> bonus melee damage</li><li style="display: none;" class="ab_id_7 tier_3">Current rank:<br> <span class="change_val">30</span> bonus melee damage</li></ul></div></div><span id="ability_tree_bar_parent_div_7" class="tick tick_0"><img id="tick-num-0" src="/dist/1-6-0g/public/icons/abilities/Ticks_0-3.svg" style="display: block;"><img id="tick-num-1" src="/dist/1-6-0g/public/icons/abilities/Ticks_1-3.svg" style="display: none;"><img id="tick-num-2" src="/dist/1-6-0g/public/icons/abilities/Ticks_2-3.svg" style="display: none;"><img id="tick-num-3" src="/dist/1-6-0g/public/icons/abilities/Ticks_3-3.svg" style="display: none;"></span></button></div></div><div id="row_level_req_9"><div class="points points_spend_4"><div id="info_column_4" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">1</span> / <span class="max_value">1</span></span></div></div><div><button id="ability_tree_ab_9" class="btn btn-default tooltip_container smoke_grenade" title="left click to spend / right click unspend" data-ability-id="9" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/smoke.svg"><div data-ability-id="9" class="clickable_diamond" id="clickable-ability_tree_ab_9" src="/dist/1-6-0g/public/icons/new_abilities/smoke.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_9 tier_0"><span class="next_rank">Next rank</span>:<br> Gain a smoke grenade</li><li style="" class="ab_id_9 tier_1">Current rank:<br> Gain a smoke grenade</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_9">U</span></div></div></div></button></div><div><button id="ability_tree_ab_10" class="btn btn-default tooltip_container flash_grenade inactive_" title="left click to spend / right click unspend" data-ability-id="10" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/flash.svg"><div data-ability-id="10" class="clickable_diamond" id="clickable-ability_tree_ab_10" src="/dist/1-6-0g/public/icons/new_abilities/flash.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_10 tier_0"><span class="next_rank">Next rank</span>:<br> Gain a flash grenade</li><li style="display: none;" class="ab_id_10 tier_1">Current rank:<br> Gain a flash grenade</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_10">F</span></div></div></div></button></div></div><div id="row_level_req_12"><div class="points points_spend_5"><div id="info_column_5" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">0</span> / <span class="max_value">1</span></span></div></div><div><button id="ability_tree_ab_11" class="btn btn-default tooltip_container wall_hanging inactive_" title="left click to spend / right click unspend" data-ability-id="11" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/abilities/WallHanging.svg"><div data-ability-id="11" class="clickable_diamond" id="clickable-ability_tree_ab_11" src="/dist/1-6-0g/public/icons/abilities/WallHanging.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_11 tier_0"><span class="next_rank">Next rank</span>:<br> Gain the ability to jump off walls instead of just the ground</li><li style="display: none;" class="ab_id_11 tier_1">Current rank:<br> Gain the ability to jump off walls instead of just the ground</li></ul></div></div></button></div><div><button id="ability_tree_ab_12" class="btn btn-default tooltip_container hide_foot_trail inactive_" title="left click to spend / right click unspend" data-ability-id="12" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/abilities/HideFootTrail.svg"><div data-ability-id="12" class="clickable_diamond" id="clickable-ability_tree_ab_12" src="/dist/1-6-0g/public/icons/abilities/HideFootTrail.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_12 tier_0"><span class="next_rank">Next rank</span>:<br> Hide your white smoke foot trail making you difficult to track</li><li style="display: none;" class="ab_id_12 tier_1">Current rank:<br> Hide your white smoke foot trail making you difficult to track</li></ul></div></div></button></div></div><div id="row_level_req_15"><div class="points points_spend_6"><div id="info_column_6" class="info_column"><span class="tier_num"></span><span class="max_points"><span class="points_spent">3</span> / <span class="max_value">3</span></span></div></div><div><button id="ability_tree_ab_8" class="btn btn-default tooltip_container he_grenade" title="left click to spend / right click unspend" data-ability-id="8" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/grenade.svg"><div data-ability-id="8" class="clickable_diamond" id="clickable-ability_tree_ab_8" src="/dist/1-6-0g/public/icons/new_abilities/grenade.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_8 tier_0"><span class="next_rank">Next rank</span>:<br> Gain a explosive grenade</li><li style="" class="ab_id_8 tier_1">Current rank:<br> Gain a explosive grenade</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_8">G</span></div></div></div></button></div><div><button id="ability_tree_ab_13" class="btn btn-default tooltip_container sticky_grenade" title="left click to spend / right click unspend" data-ability-id="13" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/sticky.svg"><div data-ability-id="13" class="clickable_diamond" id="clickable-ability_tree_ab_13" src="/dist/1-6-0g/public/icons/new_abilities/sticky.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_13 tier_0"><span class="next_rank">Next rank</span>:<br> Gain a sticky grenade</li><li style="" class="ab_id_13 tier_1">Current rank:<br> Gain a sticky grenade</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_13">V</span></div></div></div></button></div><div><button id="ability_tree_ab_14" class="btn btn-default tooltip_container mine inactive_" title="left click to spend / right click unspend" data-ability-id="14" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/mine.svg"><div data-ability-id="14" class="clickable_diamond" id="clickable-ability_tree_ab_14" src="/dist/1-6-0g/public/icons/new_abilities/mine.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_14 tier_0"><span class="next_rank">Next rank</span>:<br> Gain a mine</li><li style="display: none;" class="ab_id_14 tier_1">Current rank:<br> Gain a mine</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_14">Y</span></div></div></div></button></div><div><button id="ability_tree_ab_15" class="btn btn-default tooltip_container trip_mine inactive_" title="left click to spend / right click unspend" data-ability-id="15" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/tripmine.svg"><div data-ability-id="15" class="clickable_diamond" id="clickable-ability_tree_ab_15" src="/dist/1-6-0g/public/icons/new_abilities/tripmine.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="" class="ab_id_15 tier_0"><span class="next_rank">Next rank</span>:<br> Gain a trip mine</li><li style="display: none;" class="ab_id_15 tier_1">Current rank:<br> Gain a trip mine</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_15">B</span></div></div></div></button></div><div><button id="ability_tree_ab_16" class="btn btn-default tooltip_container impulse_grenade" title="left click to spend / right click unspend" data-ability-id="16" style="color: white;"><img title="left click to spend / right click unspend" src="/dist/1-6-0g/public/icons/new_abilities/impulse.svg"><div data-ability-id="16" class="clickable_diamond" id="clickable-ability_tree_ab_16" src="/dist/1-6-0g/public/icons/new_abilities/impulse.svg"></div><div class="tooltiptext"><div class="tier_descriptions"><ul><li style="display: none;" class="ab_id_16 tier_0"><span class="next_rank">Next rank</span>:<br> Gain an impulse grenade</li><li style="" class="ab_id_16 tier_1">Current rank:<br> Gain an impulse grenade</li></ul><div class="ab_tree_hotkey_div"><br><span>Hotkey: </span><span class="ab_tree_hotkey_span" id="ab_tree_hotkey_span_16">E</span></div></div></div></button></div></div></div><div id="abilityErrors"></div></div><div id="mouse_hint"><img src="/dist/1-6-0g/public//img/mouse_left.png"> Left-click to spend <img src="/dist/1-6-0g/public//img/mouse_right.png"> Right-click to unspend</div><div id="selection_overlay"><div id="primary_weapon_div"><canvas id="gun_highlight" width="200" height="200" style="transform: rotate(0deg);"></canvas><button class="activePrimary tooltip_container" data-weapon-id="4" data-weapon-name="Auto Rifle" title="select Auto Rifle as primary weapon" style="position: absolute; left: 207.099px; top: 307.44px; width: 200px; height: 100px;"><img class="primary_icon" src="https://ev.io//sites/default/files/weapon_icons/ar_0.png"><div class="tooltiptext"><span class="abilities_primary_title">Auto Rifle</span>Fast fire rate, low damage</div></button><button data-weapon-id="5" data-weapon-name="Hand Cannon" class="tooltip_container" title="select Hand Cannon as primary weapon" style="position: absolute; left: 174.405px; top: 228.06px; width: 200px; height: 100px;"><img class="primary_icon" src="https://ev.io//sites/default/files/weapon_icons/hc9993.png"><div class="tooltiptext"><span class="abilities_primary_title">Hand Cannon</span>Medium fire rate, medium damage</div></button><button data-weapon-id="9" data-weapon-name="Laser Rifle" class="tooltip_container" title="select Laser Rifle as primary weapon" style="position: absolute; left: 260px; top: 179px; width: 200px; height: 100px;"><img class="primary_icon" src="https://ev.io//sites/default/files/weapon_icons/laser_rifle11.png"><div class="tooltiptext"><span class="abilities_primary_title">Laser Rifle</span>Slow fire rate, high damage</div></button><button data-weapon-id="336" data-weapon-name="Burst Rifle" class="tooltip_container" title="select Burst Rifle as primary weapon" style="position: absolute; left: 345.595px; top: 228.06px; width: 200px; height: 100px;"><img class="primary_icon" src="https://ev.io//sites/default/files/weapon_icons/bricon.png"><div class="tooltiptext"><span class="abilities_primary_title">Burst Rifle</span>Fires multiple bullets at once</div></button><button data-weapon-id="701" data-weapon-name="Sweeper" class="tooltip_container" title="select Sweeper as primary weapon" style="position: absolute; left: 312.901px; top: 307.44px; width: 200px; height: 100px;"><img class="primary_icon" src="https://ev.io//sites/default/files/weapon_icons/sweeper_icon.png"><div class="tooltiptext"><span class="abilities_primary_title">Sweeper</span>Trades damage for higher accuracy and faster fire rate</div></button></div><img id="rotate_image" src="/dist/1-6-0g/public/img/ab_screen/rotating_circle.png"></div></div></div></div><div id="social-ui">
+			<div id="social-ui-not-connected-popup" style="display: none;">
+				<h1>Lost connection with Social</h1>
+				<p>To continue using the Social Service, please hit the button below.</p>
+				<button id="social-ui-reconnect-button">Connect</button>
+			</div>
+			<div id="social-ui-feedback-box"></div>
+			<h1 id="social-ui-current-title">Friends List</h1>
+			<button id="social-ui-close" onclick="this.parentNode.style.right = '-600px';">X</button>
+			<div id="friends-tab">
+				<div id="friends-tab-main-button" class="friends-tab-selected">Friends</div>
+				<div id="friends-tab-muted-button" class="friends-tab-unselected">Muted</div>
+				<div id="friends-tab-pending-button" class="friends-tab-unselected">Pending</div>
+				<div id="friends-tab-clan-button" class="friends-tab-unselected">Clan</div>
+				<p id="friends-tab-online-friends-text">0 friends online</p>
+				<div id="friends-list"><p style="padding: 10px; margin: 0px;">You don't have friends yet.<a href="#" style="color: greenyellow; font-weight: bolder;"> Click here to add friends.</a></p></div>
+				<div id="muted-list"><p>You haven't muted anybody yet. If you wish to do so, click on your pending invites or friends list to see the mute button.</p></div>
+				<div id="pending-list"><p>You don't have any friend invites.</p></div>
+				<div id="clan-tab">
+					<div id="clan-hub-upper-part">
+						<div id="clan-points-container">
+							<p id="clan-current-rank"></p>
+							<!--<p id="clan-points-next-text"></p>
+							<p id="clan-points-text"></p>
+							<p id="clan-points-prev-text"></p>-->
+						</div>
+						<div id="clan-tab-insignia"></div>
+						<button id="manage-clan-button">Manage Clan</button>
+						<p id="clan-tab-motto"></p>
+					</div>
+					<p id="clan-tab-online-text"></p>
+					<div id="clan-tab-members-list">
+						<p style="margin:5px;text-align:center;">You're not deployed in any clan.</p>
+					</div>
+				</div>
+			</div>
+			<div id="online-players-tab">
+
+			</div>
+		</div><div id="social-tool-popup">
+			<p id="social-tool-name" style="margin:0px;text-align:center;color:white;padding-bottom:5px;"></p>
+			<button id="social-tool-see-profile" class="social-tool-button">See Profile</button>
+			<button id="social-tool-whisper" class="social-tool-button">Whisper</button>
+			<button id="social-tool-joingame" class="social-tool-button">Join Game</button>
+			<button id="social-tool-sendfriendrequest" class="social-tool-button">Send Friend Request</button>
+			<button id="social-tool-acceptfriend" class="social-tool-button">Accept Friend</button>
+			<button id="social-tool-declinefriend" class="social-tool-button-negative">Decline Friend</button>
+			<button id="social-tool-mutefriend" class="social-tool-button-negative">Mute Friend</button>
+			<button id="social-tool-unmutefriend" class="social-tool-button">Unmute Friend</button>
+			<button id="social-tool-removefriend" class="social-tool-button-negative" style="margin-bottom:-5px;">Remove Friend</button>
+		</div><div id="chat-window"><div id="share_link_button" style="font-size:14px;"><span id="share_link_span"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> share game</span><span style="padding-left: 5px;" class="copied_link_span">copied!</span></div>
+            <div id="chat-window-resizer"></div>
+			<div id="chat-window-resizer-horizontal"></div>
+            <div id="chat-messages-wrapper">
+				<div id="chat-messages-go-down"><span class="glyphicon glyphicon-chevron-right"></span></div>
+				<div id="chat-messages">
+
+				</div>
+            </div>
+            <input id="chat-input" type="text" placeholder="Press [ENTER] to start typing">
+		</div><p class="chat-input-sending-to" style="color: white;">current channel set to /lobby<br>/g for global<br>/c for clan<br>/t for team<br>/l for lobby<br>/w [username] message to whisper somebody</p><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas><canvas class="canvas_healthbar" width="256" height="128" style="display: none;"></canvas></body></html>
